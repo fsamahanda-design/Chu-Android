@@ -89,13 +89,10 @@ lint/tmp/
 # Android Profiling
 *.hprof
 
-# Cordova plugins for Capacitor
-capacitor-cordova-android-plugins
-
-# Copied web assets
-app/src/main/assets/public
-
-# Generated Config files
-app/src/main/assets/capacitor.config.json
-app/src/main/assets/capacitor.plugins.json
-app/src/main/res/xml/config.xml
+# Cordova plugins, web assets, and generated config are committed
+# so GitHub Actions can build without running `cap sync`.
+# capacitor-cordova-android-plugins  <-- tracked
+# app/src/main/assets/public          <-- tracked
+# app/src/main/assets/capacitor.config.json  <-- tracked
+# app/src/main/assets/capacitor.plugins.json <-- tracked
+# app/src/main/res/xml/config.xml     <-- tracked

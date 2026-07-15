@@ -1,0 +1,8 @@
+{
+	"appId": "com.chu.creativehumanityuniverse",
+	"appName": "CHU",
+	"webDir": "dist/public",
+	"server": {
+		"androidScheme": "https"
+	}
+}
